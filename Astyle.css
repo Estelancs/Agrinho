@@ -1,0 +1,235 @@
+:root {
+    --fundo : #000000 ;
+    --dorado : #ffa229 ;
+    --branco : #ffffffc0 ;
+    --azul : #00134e; 
+    --verde : #3d9259ea ;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+.corpo{
+    background-image: url(img/afundo.avif);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    align-items: center;
+}
+
+header {
+    background-image: url(img/banner.jpg);
+    background-repeat: repeat-x;
+    background-size: auto;
+    background-color: var(--azul);
+    color: var(--branco);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comeia {
+    width: 15%;
+}
+
+.titulo {
+    text-align: center;
+    color: var(--branco);
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.imagem-logo{
+    width: 8%;
+    padding-left: 40px;
+}
+
+.texto {
+    color: var(--branco);
+    font-family: 'Ysabeau', sans-serif;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.pergunta {
+    font-family: 'Castoro Titling', cursive;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-content: center;
+    color: var(--dorado);
+}
+
+.texto1 {
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.astronauta-texto {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.aeronave-texto {
+    width: 58%;
+    padding-left: 130px;
+}
+
+.texto2 {
+    padding-right: 50px;
+}
+
+.title {
+    font-family: 'Castoro Titling', cursive;
+    text-align: center;
+    color: var(--dorado);
+}
+
+.paragrafos {
+    color: var(--branco);
+    font-family: 'Ysabeau', sans-serif;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 120px;
+}
+
+.opcoes {
+    color: var(--verde);
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    padding-bottom: 50px;
+}
+
+.consciente {
+    padding-left: 27px;
+}
+
+.meio-ambiente {
+    padding-left: 35px;
+}
+
+.desperdicio {
+    width: 85%;
+}
+
+.hierarquia {
+    width: 90%;
+}
+
+.globo {
+    padding-left: 20px;
+    width: 75%;
+}
+
+.carro {
+    width: 80%;
+    padding-left: 25px;
+}
+
+.opcoes2 {
+    color: var(--verde);
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    align-items: center;
+    font-size: large;
+}
+
+.doador {
+    padding-left: 30px;
+}
+
+.doacao {
+    width: 87%;
+}
+
+.cuidar {
+    padding-left: 35px;
+}
+
+.jardim {
+    padding-left: 50px;
+}
+
+.cuide {
+    width: 85%;
+}
+
+.horta {
+    width: 85%;
+}
+
+.etc {
+    width: 87%;
+}
+
+.texto-situacoes {
+    color: var(--branco);
+    font-family: 'Bruno Ace SC', cursive;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px ;
+}
+
+.texto-sus {
+    width: 70%;
+    padding-top: 40px;
+}
+
+.texto-educacao {
+    padding-bottom: 25px; 
+    width: 45%;
+}
+
+.casas {
+    padding-bottom: 40px;
+}
+
+.texto-moradia {
+    width: 50%;
+}
+
+.texto-desemprego {
+    padding-top: 20px;
+    width: 40%;
+}
+
+.rodape {
+    font-family: 'Bruno Ace SC', cursive;
+    background-color: var(--fundo);
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.rodape__imagem{
+    width: 35%;
+    padding-right: 30px;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco);
+    margin-left: 1em;
+}
